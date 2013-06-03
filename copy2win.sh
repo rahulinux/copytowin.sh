@@ -3,7 +3,7 @@
 # Date    : Tue Apr  3 15:30:00 IST 2012
 # Purpose : Copy logs to windows share ( from Ubuntu server)
 
-
+# Change/Update following Details
 WIN_PC_IP="IP_OF_WINDOWS/logbkp"
 WIN_USER="remoteuser"
 WIN_PASSWORD="password"
