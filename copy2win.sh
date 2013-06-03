@@ -44,5 +44,5 @@ for f in  ${!SOURCEPATH[@]}; do
 
 	$RSYNC -av ${SOURCEPATH[$f]} $DESTPATH
 done
-echo "Completed at: $( date +%d-%b-%y-%T)"| tee -a  $LOGFILE
+echo "Completed at: $( date +%d-%b-%y-%T)"
 } | tee -a $LOGFILE
