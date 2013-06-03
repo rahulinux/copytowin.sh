@@ -13,7 +13,7 @@ LOGFILE="/var/log/copy.log"
 
 # check samba installed or not if not then install
 if [ ! -x /usr/bin/smbclient ]; then
-  echo "smb-client package not installed"
+        echo "smb-client package not installed"
 	echo "installing smb-client packge.."
 	sleep 2s
 	aptitude install samba-client -y
